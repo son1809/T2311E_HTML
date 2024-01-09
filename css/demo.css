@@ -1,8 +1,24 @@
+body{
+    background-size: cover;
+    background-image: url('../image/hand-painted-watercolor-pastel-sky-background_23-2148902771.avif');
+}
 h1{
-    color: rgb(7, 132, 34)
+    color: rgb(7, 132, 34);
 }
 p{
-    color: rgb(4, 57, 114)
-    front-size: 16px;
+    color: rgb(4, 57, 114);
+    font-size: 16px;
     line-height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align; justify;/*left center right*/
+    text-decoration: underline;/*underline*/
+    text-decoration: none;/*underline line-through overline*/
+    text-transform: none;/*uppercase lowercase capitalize*/
+    font-weight: 400;
+    /* 100-thin 200-semi-light 300-light 400-normal 500-medium
+        600-semibold 700-bold 800-extrabold 900-black
+    */
+    background-color: rgb(173, 155, 155);
+    width: 600px;
+    border-bottom: 1px solid #291e07
 }
