@@ -1,0 +1,28 @@
+div{
+    width: calc(25% - 42px);
+    float: left;
+    margin: 10px;
+    border: 1px solid gray;
+    padding: 10px;
+    box-shadow: 0 0 5px gray;
+    border-radius: 5px;
+    transition: all 800ms;
+}
+div:hover{
+    background-color: rgb(73, 81, 80);
+    background: cover;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+div a{
+    color: rgb(9, 192, 9);
+    text-decoration: none;
+}
+#special{
+    background-color: darkseagreen;
+}
+groupx{
+    background-color: chartreuse;
+}
