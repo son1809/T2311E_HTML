@@ -1,0 +1,24 @@
+body{
+    background-image: url('../image/bgr.jpg');
+    background-repeat: no-repeat;
+    background-position-y: left;
+    background-size: 40%;
+}
+img{
+    border-radius: 100%;
+    width: 360px;
+    height: 360px;
+}
+div h1{
+    text-indent: 80px;
+}
+div h2{
+    text-indent: 80px;
+    text-decoration: underline ;
+}
+div h4{
+    text-indent: 80px;
+}
+#special{
+    image-resolution: calc(25% - 42px);
+}
