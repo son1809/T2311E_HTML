@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tao tai khoan</title>
+    <link rel="stylesheet" href="exam.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Create Account</h2>
+            <p>Get started with your free account</p>
+    </div>
+    <form action="submit_registration.php" method="post">
+        <div class="form-group">
+          <label for="full_name">Full Name</label>
+          <input type="text" id="full_name" name="full_name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" name="phone" pattern="\+84[0-9]{9,10}" required>
+        </div>
+        <div class="form-group">
+          <label for="job_type">Job Type</label>
+          <select id="job_type" name="job_type" required>
+            <option value="" disabled selected>Select job type</option>
+            <option value="option1">Designer</option>
+            <option value="option2">Manager</option>
+            <option value="option3">Accaunting</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="password">Create Password</label>
+          <input type="password" id="password" name="password" required>
+        </div>
+        <div class="form-group">
+          <label for="confirm_password">Repeat Password</label>
+          <input type="password" id="confirm_password" name="confirm_password" required>
+        </div>
+        <button type="button" id="submit">Create Account</button>
+        <div class="end">
+        <p>Have an account?<a href="#" style="color:dodgerblue">Login</a></p>
+        </div>
+      </form>
+</body>
+</html>

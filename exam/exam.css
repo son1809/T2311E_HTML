@@ -1,0 +1,44 @@
+.form-group {
+    margin-bottom: 20px;
+    padding: 0px 500px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: center;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="password"],
+  select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  button{
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+.container{
+    text-align: center;
+}
+.end{
+  text-align: center;
+}
+#submit{
+  margin: 0 44%;
+}
